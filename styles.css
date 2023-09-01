@@ -228,3 +228,235 @@ a {
     padding: 8px 16px;
   }
 }
+
+
+/* Estilos para a seção "Sobre Nós" */
+.about-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.about-text {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.about-text h2 {
+  color: var(--main-color);
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Estilos responsivos para dispositivos móveis */
+@media (max-width: 767px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-text {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .about-image img {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* Estilos para a seção "Vantagens e Benefícios" */
+.advantages-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.advantages-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Espaço entre os cartões */
+  margin-top: 30px;
+}
+
+.advantage-item {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.advantage-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.advantage-item h3 {
+  color: var(--main-color);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.advantage-item p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Estilos responsivos para dispositivos móveis */
+@media (max-width: 767px) {
+  .advantages-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Estilos para a seção "Entre em Contato" */
+.contact-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact-section h2 {
+  color: var(--main-color);
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact-section form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-section form label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-section form textarea {
+  resize: vertical;
+}
+
+.contact-section form button {
+  background-color: var(--main-color);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-section form button:hover {
+  background-color: #128c7e;
+}
+
+/* Estilos responsivos para dispositivos móveis */
+@media (max-width: 767px) {
+  .contact-section form {
+    padding: 0 20px;
+  }
+
+  .contact-section form label {
+    font-size: 18px;
+  }
+
+  .contact-section form input,
+  .contact-section form textarea {
+    font-size: 14px;
+  }
+
+  .contact-section form button {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}
+
+/* Estilos para a seção "Outras Informações" */
+.info-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.info-section h2 {
+  color: var(--main-color);
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.info-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.info-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.info-content p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Estilos responsivos para dispositivos móveis */
+@media (max-width: 767px) {
+  .info-section {
+    padding: 0 20px;
+  }
+
+  .info-section h2 {
+    font-size: 24px;
+  }
+
+  .info-section p {
+    font-size: 16px;
+  }
+}

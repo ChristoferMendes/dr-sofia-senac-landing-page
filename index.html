@@ -30,7 +30,17 @@
             >
           </li>
           <li>
-            <a href="#contact" aria-label="Ir para a seção Contato">Contato</a>
+            <a href="#about" aria-label="Ir para a seção Sobre"
+              >Sobre</a
+            >
+          </li>
+          <li>
+            <a href="#advantages" aria-label="Ir para a seção Vantagens"
+              >Vantages</a
+            >
+          </li>
+          <li>
+            <a href="#contact-form" aria-label="Ir para a seção Contato">Contato</a>
           </li>
         </ul>
       </nav>
@@ -40,15 +50,17 @@
       <section class="main-content" id="home">
         <div class="main-texts">
           <h3>Precisa de ajuda?</h3>
-          <h2>Psicologia com a Dra. Sofia</h2>
+          <h2>Psicologia com o grupo da Dra. Sofia</h2>
           <p>
             Se você está procurando ajuda em questões relacionadas à psicologia,
-            você veio ao lugar certo. A Dra. Sofia está aqui para oferecer
+            você veio ao lugar certo. A nossa compania, do grupo da Dra. Sofia está aqui para oferecer
             suporte e orientação em uma variedade de questões emocionais,
             comportamentais e de bem-estar.
           </p>
           <section class="main-actions">
-            <button>Saiba mais</button>
+            <a href="#services">
+              <button>Saiba mais</button>
+            </a>
             <a href="https://wa.me/5541999103162">Ou contate</a>
           </section>
         </div>
@@ -75,6 +87,23 @@
         </div>
       </section>
 
+      <section class="about-section" id="about">
+        <div class="about-content">
+          <div class="about-image">
+            <img src="https://blog.unyleya.edu.br/wp-content/uploads/2019/04/280859-como-liderar-uma-equipe-na-pratica-veja-x-dicas-essenciais.jpg" alt="Sobre Nós">
+          </div>
+          <div class="about-text">
+            <h2>Sobre Nós</h2>
+            <p>
+              Somos uma equipe apaixonada por ajudar pessoas a alcançar uma saúde mental
+              e bem-estar melhores. Com uma abordagem compassiva e centrada no cliente,
+              trabalhamos para fornecer soluções personalizadas para as suas necessidades.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      
       <section class="services-section" id="services">
         <h2>Nossos Serviços</h2>
         <ul class="services-list">
@@ -141,22 +170,94 @@
           </li>
         </ul>
       </section>
-      <section id="contact">
-        <address class="contact-container">
-          <h2>Entre em Contato</h2>
-          <p>
-            Estamos disponíveis para ajudá-lo. Entre em contato conosco pelo
-            WhatsApp:
-          </p>
-          <a href="https://wa.me/5541999103162" class="whatsapp-button">
-            <img
-              src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/WhatsApp-256.png"
-              alt="WhatsApp"
-            />
-            <span>WhatsApp</span>
-          </a>
-        </address>
+
+    
+
+      <section class="advantages-section" id="advantages">
+        <h2>Vantagens e Benefícios</h2>
+        <ul class="advantages-list">
+          <li>
+            <div class="advantage-item">
+              <h3>Atendimento Personalizado</h3>
+              <p>Receba orientação personalizada e compassiva.</p>
+            </div>
+          </li>
+          <li>
+            <div class="advantage-item">
+              <h3>Equipe Qualificada</h3>
+              <p>Conte com terapeutas altamente qualificados.</p>
+            </div>
+          </li>
+          <li>
+            <div class="advantage-item">
+              <h3>Flexibilidade de Agendamento</h3>
+              <p>Agende consultas de acordo com sua conveniência.</p>
+            </div>
+          </li>
+          <li>
+            <div class="advantage-item">
+              <h3>Ambiente Acolhedor</h3>
+              <p>Proporcionamos um ambiente acolhedor e seguro.</p>
+            </div>
+          </li>
+          <li>
+            <div class="advantage-item">
+              <h3>Resultados Comprovados</h3>
+              <p>Nossas abordagens têm resultados positivos comprovados.</p>
+            </div>
+          </li>
+        </ul>
       </section>
+      
+
+      <section class="contact-section" id="contact-form">
+        <h2>Entre em Contato</h2>
+        <p>
+          Estamos aqui para responder a todas as suas perguntas. Preencha o formulário
+          abaixo e entraremos em contato o mais breve possível.
+        </p>
+        <form action="seu-script-de-contato.php" method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+      
+      <section id="contact">
+          <address class="contact-container">
+            <p>
+              Estamos disponíveis para ajudá-lo também pelo WhatsApp. Entre em contato conosco!
+            </p>
+            <a href="https://wa.me/5541999103162" class="whatsapp-button">
+              <img
+                src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/WhatsApp-256.png"
+                alt="WhatsApp"
+              />
+              <span>WhatsApp</span>
+            </a>
+          </address>
+      </section>
+
+      <section class="info-section" id="additional-info">
+        <h2>Outras Informações</h2>
+        <p>
+          Aqui você pode encontrar informações adicionais sobre nossa abordagem,
+          eventos futuros e recursos úteis relacionados à saúde mental e ao bem-estar.
+        </p>
+        <div class="info-content">
+          <p><strong>Nossa Abordagem:</strong> Estamos comprometidos em fornecer suporte e orientação para o seu bem-estar emocional.</p>
+          <p><strong>Eventos Futuros:</strong> Fique atento para futuros workshops e palestras sobre saúde mental.</p>
+          <p><strong>Recursos Úteis:</strong> Acesse nossos artigos e recursos para obter informações valiosas sobre saúde mental.</p>
+        </div>
+      </section>
+      
     </main>
   </body>
 </html>
