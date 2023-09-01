@@ -3,23 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dra. Sofia</title>
+    <meta
+      name="description"
+      content="Psicologia e bem-estar com a Dra. Sofia. Oferecemos aconselhamento individual, terapia de casal, terapia familiar e muito mais."
+    />
+    <meta
+      name="keywords"
+      content="Psicologia, Bem-estar, Aconselhamento, Terapia, Dra. Sofia"
+    />
+
+    <title>Dra. Sofia - Psicologia e Bem-Estar</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="/css/responsive.css" />
   </head>
   <body>
     <header>
-      <h1>Dra. Sofia</h1>
+      <h1><abbr title="Doutora">Dra.</abbr> Sofia</h1>
       <nav>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a href="#home" aria-label="Ir para a seção Home">Home</a>
           </li>
           <li>
-            <a href="#services">Serviços</a>
+            <a href="#services" aria-label="Ir para a seção Serviços"
+              >Serviços</a
+            >
           </li>
           <li>
-            <a href="#contact">Contato</a>
+            <a href="#contact" aria-label="Ir para a seção Contato">Contato</a>
           </li>
         </ul>
       </nav>
@@ -44,7 +55,7 @@
         <div class="img-main-content-container">
           <picture>
             <source
-              media="(min-width:1360px)"
+              media="(min-width:1440px)"
               srcset="
                 https://pngfreepic.com/wp-content/uploads/2022/04/Health-insurance-online-consultation-with-psychologist-Vector.png?v=1663484393
               "
@@ -130,19 +141,22 @@
           </li>
         </ul>
       </section>
-
       <section id="contact">
-        <div class="contact-container">
+        <address class="contact-container">
           <h2>Entre em Contato</h2>
-          <p>Estamos disponíveis para ajudá-lo. Entre em contato conosco pelo WhatsApp:</p>
+          <p>
+            Estamos disponíveis para ajudá-lo. Entre em contato conosco pelo
+            WhatsApp:
+          </p>
           <a href="https://wa.me/5541999103162" class="whatsapp-button">
-            <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/WhatsApp-256.png" alt="WhatsApp" />
+            <img
+              src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/WhatsApp-256.png"
+              alt="WhatsApp"
+            />
             <span>WhatsApp</span>
           </a>
-        </div>
+        </address>
       </section>
-      
-      
     </main>
   </body>
 </html>
